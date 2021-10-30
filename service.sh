@@ -163,11 +163,3 @@ echo -e " Ws-ovpn           : Ws-ovpn Service is "$green"running"$NC""
 else                                                                                    
 echo -e " Ws-ovpn           : Ws-ovpn Service is "$red"not running (Error)"$NC""      
 fi
-status="$(systemctl show trojan-go.service --no-page)"                                      
-status_text=$(echo "${status}" | grep 'ActiveState=' | cut -f2 -d=)                     
-if [ "${status_text}" == "active" ]                                                     
-then                                                                                    
-echo -e " Trojan-go         : Trojan-go Service is "$green"running"$NC""                
-else                                                                                    
-echo -e " Trojan-go         : Trojan-go Service is "$red"not running (Error)"$NC""      
-fi
