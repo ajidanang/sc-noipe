@@ -39,6 +39,7 @@ echo -e   "   24\e[1;33m)\e[m Pointing VPS"
 echo -e   "   25\e[1;33m)\e[m Service Status"
 echo -e   "   26\e[1;33m)\e[m Cek Bandwidth VPS"
 echo -e   "   27\e[1;33m)\e[m Wildcard"
+echo -e   "   28\e[1;33m)\e[m autoreboot"
 echo -e   "  \e[1;32m===============================================================\e[m" | lolcat
 echo -e   "   x)   Exit" | lolcat
 echo -e   "  \e[1;32m===============================================================\e[m" | lolcat
@@ -126,6 +127,9 @@ vnstat
 ;;
 27)
 wget https://raw.githubusercontent.com/jhoy-id/sc-noipe/main/wildcard.sh; chmod +x wildcard.sh; ./wildcard.sh; rm -f wildcard.sh
+;;
+28)
+autoreboot
 ;;
 x)
 exit
