@@ -34,16 +34,11 @@ echo -e   "   19\e[1;33m)\e[m Speedtest VPS"
 echo -e   "   20\e[1;33m)\e[m Information Display System" 
 echo -e   "   21\e[1;33m)\e[m Info Script Auto Install"
 echo -e   "   22\e[1;33m)\e[m Install BBR"
-echo -e   "   23\e[1;33m)\e[m Add ID Cloudflare"
-echo -e   "   24\e[1;33m)\e[m Cloudflare Add-Ons"
-echo -e   "   25\e[1;33m)\e[m Pointing BUG"
-echo -e   "   26\e[1;33m)\e[m Clear log"
-echo -e   "   27\e[1;33m)\e[m Auto Reboot"
-echo -e   "   28\e[1;33m)\e[m Pointing VPS"
-echo -e   "   39\e[1;33m)\e[m Service Status"
-echo -e   "   30\e[1;33m)\e[m Backup Via Nginx"
-echo -e   "   31\e[1;33m)\e[m Cek Bandwidth VPS"
-echo -e   "   32\e[1;33m)\e[m Wildcard"
+echo -e   "   23\e[1;33m)\e[m Clear log"
+echo -e   "   24\e[1;33m)\e[m Pointing VPS"
+echo -e   "   25\e[1;33m)\e[m Service Status"
+echo -e   "   26\e[1;33m)\e[m Cek Bandwidth VPS"
+echo -e   "   27\e[1;33m)\e[m Wildcard"
 echo -e   "  \e[1;32m===============================================================\e[m" | lolcat
 echo -e   "   x)   Exit" | lolcat
 echo -e   "  \e[1;32m===============================================================\e[m" | lolcat
@@ -118,33 +113,18 @@ about
 bbr
 ;;
 23)
-cff
-;;
-24)
-cfd
-;;
-25)
-cfh
-;;
-26)
 clear-log
 ;;
-27)
-autoreboot
-;;
-28)
+24)
 point
 ;;
-29)
+25)
 service-status
 ;;
-30)
-bcknginx
-;;
-31)
+26)
 vnstat
 ;;
-32)
+27)
 wget https://raw.githubusercontent.com/jhoy-id/sc-noipe/main/wildcard.sh; chmod +x wildcard.sh; ./wildcard.sh; rm -f wildcard.sh
 ;;
 x)
