@@ -350,9 +350,6 @@ wget -O point "https://raw.githubusercontent.com/jhoy-id/sc-noipe/main/pointing.
 wget -O service-status "https://raw.githubusercontent.com/jhoy-id/sc-noipe/main/service.sh"
 wget -O bcknginx "https://raw.githubusercontent.com/jhoy-id/sc-noipe/raw/main/backup-nginx.sh"
 wget -O update "https://raw.githubusercontent.com/jhoy-id/sc-noip/main/update.sh"
-wget -O cfd "https://raw.githubusercontent.com/jhoy-id/sc-noip/main/cfd.sh"
-wget -O cff "https://raw.githubusercontent.com/jhoy-id/sc-noip/main/cff.sh"
-wget -O cfh "https://raw.githubusercontent.com/jhoy-id/sc-noip/main/cfh.sh"
 chmod +x add-host
 chmod +x usernew
 chmod +x trial
@@ -398,9 +395,6 @@ chmod +x point
 chmod +x service-status
 chmod +x bcknginx
 chmod +x update
-chmod +x cfd
-chmod +x cff
-chmod +x cfh
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 # remove unnecessary files
