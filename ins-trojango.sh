@@ -67,7 +67,7 @@ cat <<EOF > /etc/trojan-go/config.json
 EOF
 cat <<EOF > /etc/systemd/system/trojan-go.service
 [Unit]
-Description=Trojan-Go  By BokirTampan
+Description=Trojan-Go  By Liuuufey
 Documentation=https://p4gefau1t.github.io/trojan-go/
 After=network.target nss-lookup.target
 
