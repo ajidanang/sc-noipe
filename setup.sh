@@ -69,9 +69,9 @@ clear
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "================-Autoscript Premium-=================" | tee -a log-install.txt
+echo "=============-Autoscript Premium-=============" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo "----------------------------------------------------------------" | tee -a log-install.txt
+echo "----------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
@@ -113,7 +113,7 @@ echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : Jhoy Project"  | tee -a log-install.txt
 echo "   - Telegram                : @liuuufey"  | tee -a log-install.txt
-echo "------------------Script Created By Jhoy PROJECT-----------------" | tee -a log-install.txt
+echo "---------Script Created By Jhoy PROJECT----------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
