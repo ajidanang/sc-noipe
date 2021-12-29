@@ -16,7 +16,7 @@ state=Jawa Barat
 locality=Sukabumi
 organization=www.netnot.xyz
 organizationalunit=www.netnot.xyz
-commonname=Jhoy VPN
+commonname=netnot.xyz
 email=admin@jhoy.my.id
 
 # simple password minimal
