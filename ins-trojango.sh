@@ -17,7 +17,7 @@ touch /etc/trojan-go/uuid.txt
 mkdir -p /etc/trojan-go/
 chmod 777 /etc/trojan-go/
 touch /etc/trojan-go/trojan-go.pid
-wget -O /etc/trojan-go/trojan-go https://github.com/bokir-tampan/ranjau-darate/raw/main/trojan-go
+wget -O /etc/trojan-go/trojan-go https://github.com/jhoy-id/sc-noipe/raw/main/trojan-go
 chmod +x /etc/trojan-go/trojan-go
 cat <<EOF > /etc/trojan-go/config.json
 {
