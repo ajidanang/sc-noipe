@@ -20,7 +20,7 @@ domain=$(cat /etc/v2ray/domain)
 else
 domain=$IP
 fi
-trojango="$(cat ~/log-install.txt | grep -i TrojanGo | cut -d: -f2|sed 's/ //g')"
+trojango="$(cat ~/log-install.txt | grep -i Trojan-Go | cut -d: -f2|sed 's/ //g')"
 until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${user_EXISTS} == '0' ]]; do
 		read -rp "Password : " -e user
 		user_EXISTS=$(grep -w $user /etc/trojan-go/akun.conf | wc -l)
