@@ -1,4 +1,4 @@
-#install
+
 apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 
 wget https://raw.githubusercontent.com/jhoy-id/ip/main/akses.sh && chmod +x akses.sh && ./akses.sh
