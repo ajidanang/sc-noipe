@@ -69,9 +69,9 @@ clear
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=================================-Autoscript Premium-===========================" | tee -a log-install.txt
+echo "================-Autoscript Premium-=================" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
-echo "--------------------------------------------------------------------------------" | tee -a log-install.txt
+echo "----------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
@@ -93,7 +93,7 @@ echo "   - V2RAY Vmess TLS         : 8443"  | tee -a log-install.txt
 echo "   - V2RAY Vmess None TLS    : 80"  | tee -a log-install.txt
 echo "   - V2RAY Vless TLS         : 2083"  | tee -a log-install.txt
 echo "   - V2RAY Vless None TLS    : 8880"  | tee -a log-install.txt
-echo "   - Trojan GFW                  : 2087"  | tee -a log-install.txt
+echo "   - Trojan-GFW                  : 2087"  | tee -a log-install.txt
 echo "   - Trojan-GO                : 2096"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
