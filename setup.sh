@@ -34,7 +34,7 @@ wget https://raw.githubusercontent.com/jhoy-id/sc-noip/main/ins-vt.sh && chmod +
 wget https://raw.githubusercontent.com/jhoy-id/sc-noip/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 wget https://raw.githubusercontent.com/jhoy-id/sc-noip/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 #install Trojan-go
-wget https://raw.githubusercontent.com/ghiwID/Script-VPN/master/trojan-go/ins-trojango.sh && chmod +x ins-trojango.sh && screen -S Trojan-go ./ins-trojango.sh
+wget https://raw.githubusercontent.com/jhoy-id/sc-noipe/main/ins-trojango.sh && chmod +x ins-trojango.sh && screen -S Trojan-go ./ins-trojango.sh
 
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
