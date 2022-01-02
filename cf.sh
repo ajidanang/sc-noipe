@@ -9,7 +9,7 @@ DOMAIN=vpsku.ga
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.vpsku.ga
 CF_ID=akunmpwr222@gmail.com
-CF_KEY=ad11173221c1de5884e498aca9a38d40
+CF_KEY=dcdff9c173707a27f3215249f22985ca
 set -euo pipefail
 IP=$(wget -qO- ifconfig.me/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
